@@ -1,0 +1,41 @@
+# Local Python installation and virtual environments
+/.python312/
+/.venv/
+/.venv-*/
+/venv/
+/env/
+
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Generated models, charts, and workflow results
+/output/
+/checks_live.json
+/checks_synthetic.json
+*.joblib
+
+# Local secrets and machine-specific settings
+.env
+.env.*
+!.env.example
+/.vscode/
+/.idea/
+
+# Temporary files and operating-system metadata
+*.log
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep assets/ tracked: README.md embeds its chart previews.
+DEBUG_REPORT.md

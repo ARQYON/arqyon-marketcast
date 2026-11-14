@@ -1,0 +1,8 @@
+yfinance==1.8.0
+numpy==2.2.6
+pandas==2.3.3
+scikit-learn==1.7.2
+xgboost-cpu==3.0.5
+matplotlib==3.10.7
+joblib==1.5.2
+tzdata==2025.2
